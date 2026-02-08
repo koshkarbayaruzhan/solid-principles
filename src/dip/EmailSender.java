@@ -1,4 +1,7 @@
 package dip;
 
-public @interface EmailSender {
+public class EmailSender implements IMessageSender {
+    public void send(String message) {
+        System.out.println("Email sent: " + message);
+    }
 }
