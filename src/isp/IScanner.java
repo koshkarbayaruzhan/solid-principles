@@ -1,4 +1,5 @@
 package isp;
 
-public class IScanner {
+public interface IScanner {
+    void scan(String content);
 }
