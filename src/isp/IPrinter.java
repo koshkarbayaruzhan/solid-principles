@@ -1,4 +1,5 @@
 package isp;
 
-public class IPrinter {
+public interface IPrinter {
+    void print(String content);
 }
