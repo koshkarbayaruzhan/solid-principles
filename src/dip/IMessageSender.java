@@ -1,4 +1,5 @@
 package dip;
 
-public class IMessageSender {
+public interface IMessageSender {
+    void send(String message);
 }
